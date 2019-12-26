@@ -4,10 +4,8 @@
 // on `None`. Handle this in a more graceful way than calling `unwrap`!
 // Execute `rustlings hint option1` for hints :)
 
-// I AM NOT DONE
-
 pub fn pop_too_much() -> bool {
-    let mut list = vec![3];
+    let mut list = vec![3, 2, 1];
 
     let last = list.pop().unwrap();
     println!("The last item in the list is {:?}", last);
